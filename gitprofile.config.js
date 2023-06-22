@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'PrenSJ2', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,9 +11,9 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'sebastianprentice',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
@@ -23,90 +23,215 @@ const config = {
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'prentice.seb@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://cv.onlineolive.tech/', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'SQL',
+    'HTML',
+    'Tailwind.css',
+    'AWS',
+    'Elasticsearch',
+    'AI',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'CAD',
+    'DevOps',
+    'Project Management',
+    'Django',
+    'Jinja',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  /* certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
-  ], */
   education: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
+  {
+    institution: 'University of Buckingham',
+    degree: 'BSc Computing (Hons)',
+    from: '2020',
+    to: '2022.12',
+  },
+  {
+    institution: 'Santa Clara University',
+    degree: 'Undergraduate Computer Science, Computer Engineering',
+    from: '2018',
+    to: '2020',
+  },
+  {
+    institution: 'Radley College',
+    degree: 'A-Level: Economics, Design & Technology: Product Design',
+    from: '2013',
+    to: '2018',
+  },
+  {
+    institution: 'Ichinomya High School (Japan)',
+    degree: 'Exchange',
+    from: '2016.10',
+    to: '2016.10',
+  },
+],
+
+experiences: [
+  {
+    company: 'TutorCruncher',
+    position: 'Junior Developer',
+    from: '2022.10',
+    to: 'CURRENT',
+    companyLink: '',
+  },
+  {
+    company: 'Purple Hill Handmade',
+    position: 'Developer & Technology Specialist',
+    from: '2020.3',
+    to: 'CURRENT',
+    companyLink: '',
+  },
+  {
+    company: 'Airbnb',
+    position: 'Airbnb Host - The Coach House',
+    from: '2018.9',
+    to: 'CURRENT',
+    companyLink: '',
+  },
+  {
+    company: 'Dustonmill',
+    position: 'Web Developer & Designer',
+    from: '2017.6',
+    to: 'CURRENT',
+    companyLink: '',
+  },
+  {
+    company: 'Freelance Web Designer & Developer',
+    position: 'Online Olive',
+    from: '2018.3',
+    to: 'CURRENT',
+    companyLink: '',
+  },
+  {
+    company: 'Village Shop & Post Office',
+    position: 'Manager',
+    from: '2020.11',
+    to: '2021.6',
+    companyLink: '',
+  },
+  {
+    company: 'Reset MSM',
+    position: 'Tech Intern',
+    from: '2020.9',
+    to: '2021.1',
+    companyLink: '',
+  },
+  {
+    company: 'SCU Ignatian Center',
+    position: 'Web Administrator',
+    from: '2019.9',
+    to: '2020.3',
+    companyLink: '',
+  },
+  {
+    company: 'Tech Camp',
+    position: 'Teacher',
+    from: '2018.7',
+    to: '2018.8',
+    companyLink: '',
+  },
+  {
+    company: 'Ocado Technology, Code for Life',
+    position: 'Intern',
+    from: '2018.6',
+    to: '2018.6',
+    companyLink: '',
+  },
+],
+
+ certifications: [
+  {
+    name: 'Open Water Diver',
+    body: 'PADI',
+    year: '',
+    link: ''
+  },
+  {
+    name: 'Javascript',
+    body: 'Sololearn',
+    year: '',
+    link: 'https://www.sololearn.com/Certificate/1024-21810800/pdf/'
+  },
+  {
+    name: 'Foundations of User Experience (UX) Design',
+    body: 'Coursera',
+    year: '',
+    link: 'https://www.coursera.org/account/accomplishments/verify/TH62A2DER3RG?utm_source=ios&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course'
+  },
+  {
+    name: 'CG DofE Gold Award',
+    body: 'The Duke of Edinburgh’s Award',
+    year: '',
+    link: ''
+  },
+  {
+    name: 'React.js',
+    body: 'LinkedIn skill assessment',
+    year: '',
+    link: ''
+  },
+  {
+    name: 'HTML',
+    body: 'LinkedIn skill assessment',
+    year: '',
+    link: ''
+  },
+  {
+    name: 'Front-End Development',
+    body: 'LinkedIn skill assessment',
+    year: '',
+    link: ''
+  },
+  {
+    name: 'Search Engine Optimization',
+    body: 'LinkedIn skill assessment',
+    year: '',
+    link: ''
+  },
+  {
+    name: 'Adobe Photoshop',
+    body: 'LinkedIn skill assessment',
+    year: '',
+    link: ''
+  },
+  {
+    name: 'Wordpress',
+    body: 'LinkedIn skill assessment',
+    year: '',
+    link: ''
+  },
+],
+
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-  ],
+  // externalProjects: [
+  //   {
+  //     title: 'Project Name',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+  //     imageUrl: 'https://via.placeholder.com/250x250',
+  //     link: 'https://example.com',
+  //   },
+  //   {
+  //     title: 'Project Name',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+  //     imageUrl: 'https://via.placeholder.com/250x250',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
