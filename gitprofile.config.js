@@ -18,8 +18,8 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'prentice.seb',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
@@ -29,7 +29,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://cv.onlineolive.tech/', // Empty fileUrl will hide the `Download Resume` button.
+      'https://cv.onlineolive.xyz/', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
